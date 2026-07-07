@@ -41,8 +41,7 @@ p {
     justify-content: space-between;
 
     & img {
-        height: 50px;
-        width: 50px;
+        width: 200px;
     }
 }
 
