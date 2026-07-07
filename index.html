@@ -41,6 +41,8 @@
             'Tempo': 'tempo',
             'Shift': 'shift'
         }
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
 
         // Grab your modal elements from the DOM
         const modal = document.querySelector('.modal');
@@ -56,8 +58,10 @@
                     // 1. Create a real TR element instead of a plain string
                     const row = document.createElement('tr');
 
-                    // Add the expired class if necessary
-                    if (session.date === '01/01/2026') {
+                    const [day, month, year] = session.date.split('/');
+                    const sessionDate = new Date(year, month - 1, day);
+
+                    if (sessionDate < today) {
                         row.classList.add('expired');
                     }
 
