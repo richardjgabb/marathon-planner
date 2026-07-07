@@ -1,13 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>marathon-planner</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Naples Marathon Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="background">
+    <section class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Session Details</h2>
+                <span class="close-button">&times;</span>
+            </div>
+            <div id="modal-body">
+                <p>Loading session details...</p>
+            </div>
+        </div>
+    </section>
+    <h1>Naples Marathon Plan</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Session Type</th>
+                <th>Distance</th>
+                <th>Speed</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody id="plan-table-body">
+        </tbody>
+    </table>
+
+    <script>
+        const sessionTypeClassMap = {
+            'Rest': 'rest',
+            'Intervals': 'intervals',
+            'Easy Run': 'easy',
+            'Recovery': 'recovery',
+            'Tempo': 'tempo',
+            'Shift': 'shift'
+        }
+
+        // Grab your modal elements from the DOM
+        const modal = document.querySelector('.modal');
+        // Assuming you have a close button inside your modal (e.g., <span class="close-button">&times;</span>)
+        const closeModalButton = document.querySelector('.close-button');
+
+        fetch('plan.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('plan-table-body');
+
+                data.forEach(session => {
+                    // 1. Create a real TR element instead of a plain string
+                    const row = document.createElement('tr');
+
+                    // Add the expired class if necessary
+                    if (session.date === '01/01/2026') {
+                        row.classList.add('expired');
+                    }
+
+                    // 2. Insert the columns into the row
+                    row.innerHTML = `
+                        <td><b>${session.date ?? '-'}</b></td>
+                        <td class="${sessionTypeClassMap[session.type] ?? ''}">${session.type ?? '-'}</td>
+                        <td>${session.distance ?? '-'}</td>
+                        <td>${session.speed ?? '-'}</td>
+                        <td>${session.details ?? '-'}</td>
+                    `;
+
+                    // 3. Add the click event listener directly to this specific row
+                    row.addEventListener('click', () => {
+                        // Show the modal
+                        modal.style.display = 'block';
+
+                        // OPTIONAL: Push this row's session details into the modal content
+                        // Assuming you have an element inside your modal like <div id="modal-body"></div>
+                        const modalBody = document.getElementById('modal-body');
+                        if (modalBody) {
+                            modalBody.innerHTML = `
+                                <h3>${session.date} - ${session.type}</h3>
+                                <p><b>Distance:</b> ${session.distance ?? '-'}</p>
+                                <p><b>Speed:</b> ${session.speed ?? '-'}</p>
+                                <p><b>Details:</b> ${session.details ?? '-'}</p>
+                            `;
+                        }
+                    });
+
+                    // 4. Append the fully built row into the table body
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error loading the plan:', error));
+
+        // --- Close Modal Event Listeners ---
+        // Listen for when the user clicks the close button
+        if (closeModalButton) {
+            closeModalButton.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+        }
+
+        // Listen for when the user clicks anywhere outside of the actual modal content box
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
 </html>
