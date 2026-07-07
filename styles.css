@@ -36,6 +36,16 @@ p {
     font-size: 1rem;
 }
 
+.title-container {
+    display: flex;
+    justify-content: space-between;
+
+    & img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
 /* --- Interactive Elements (Filters/Dropdowns) --- */
 select {
     appearance: none;
