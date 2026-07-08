@@ -139,7 +139,7 @@ tr:not(.expired) .intervals {
     background-color: rgb(247, 246, 197) !important;
 }
 
-tr:not(.expired) .easy {
+tr:not(.expired) .long {
     background-color: rgb(197, 228, 247) !important;
 }
 
@@ -147,7 +147,7 @@ tr:not(.expired) .tempo {
     background-color: rgb(247, 225, 197) !important;
 }
 
-tr:not(.expired) .recovery {
+tr:not(.expired) .easy {
     background-color: rgb(197, 247, 207) !important;
 }
 
