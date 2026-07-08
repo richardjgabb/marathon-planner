@@ -1,33 +1,773 @@
 [
-    { "date": "01/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "02/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "03/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "04/07/2026", "type": "Shift", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "05/07/2026", "type": "Tempo", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "06/07/2026", "type": "Recovery", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "07/07/2026", "type": "Shift", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "08/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "09/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "10/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "11/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "12/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "13/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "14/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "15/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "16/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "17/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "18/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "19/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "20/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "21/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "22/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "23/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "24/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "25/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "26/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "27/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "28/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "29/07/2026", "type": "Rest", "distance": "0 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "30/07/2026", "type": "Intervals", "distance": "5 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" },
-    { "date": "31/07/2026", "type": "Easy Run", "distance": "4 miles", "speed": "11km/h", "details": "lorem ipsum blah blah cheese mary hairy cat in the hat says you need a new fat bat. Make sure you do the session that I have prescribed so you can go to Naples willy nilly" }
+
+  {
+
+    "date": "2026-07-08",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Comfortable aerobic run. Keep effort conversational."
+
+  },
+
+  {
+
+    "date": "2026-07-09",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-10",
+
+    "type": "Intervals",
+
+    "speed": "4:35-4:45/km",
+
+    "distance": "10km",
+
+    "details": "2km warm-up, 5 x 1km at interval pace with 2 min jog recovery, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-07-11",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-12",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "22km",
+
+    "details": "Easy effort throughout. Practice fueling every 35-40 minutes."
+
+  },
+
+  {
+
+    "date": "2026-07-13",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-14",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-15",
+
+    "type": "Tempo",
+
+    "speed": "4:55-5:05/km",
+
+    "distance": "12km",
+
+    "details": "2km warm-up, 8km tempo, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-07-16",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-17",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Easy aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-07-18",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "24km",
+
+    "details": "Easy effort. Fuel every 35-40 minutes."
+
+  },
+
+  {
+
+    "date": "2026-07-19",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-20",
+
+    "type": "Easy",
+
+    "speed": "6:10-6:40/km",
+
+    "distance": "6km",
+
+    "details": "Recovery run."
+
+  },
+
+  {
+
+    "date": "2026-07-21",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-22",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-23",
+
+    "type": "Intervals",
+
+    "speed": "4:35-4:45/km",
+
+    "distance": "11km",
+
+    "details": "2km warm-up, 6 x 1km with 2 min jog recoveries, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-07-24",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Relaxed aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-07-25",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "26km",
+
+    "details": "Steady easy effort. Practice race fueling."
+
+  },
+
+  {
+
+    "date": "2026-07-26",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-27",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-28",
+
+    "type": "Tempo",
+
+    "speed": "4:55-5:05/km",
+
+    "distance": "13km",
+
+    "details": "2km warm-up, 9km tempo, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-07-29",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-30",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-07-31",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Easy aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-08-01",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:25/km",
+
+    "distance": "28km",
+
+    "details": "Keep effort controlled. Fuel and hydrate as race practice."
+
+  },
+
+  {
+
+    "date": "2026-08-02",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-03",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-04",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-05",
+
+    "type": "Intervals",
+
+    "speed": "4:30-4:45/km",
+
+    "distance": "12km",
+
+    "details": "2km warm-up, 6 x 1km, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-08-06",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-07",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Easy aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-08-08",
+
+    "type": "Easy",
+
+    "speed": "6:10-6:40/km",
+
+    "distance": "6km",
+
+    "details": "Weekend shift recovery run."
+
+  },
+
+  {
+
+    "date": "2026-08-09",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:25/km",
+
+    "distance": "30km",
+
+    "details": "Final 5km at marathon pace (5:20/km)."
+
+  },
+
+  {
+
+    "date": "2026-08-10",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-11",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-12",
+
+    "type": "Tempo",
+
+    "speed": "4:55-5:05/km",
+
+    "distance": "14km",
+
+    "details": "2km warm-up, 10km tempo, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-08-13",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-14",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Easy aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-08-15",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:25/km",
+
+    "distance": "32km",
+
+    "details": "Practice full race fueling strategy."
+
+  },
+
+  {
+
+    "date": "2026-08-16",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-17",
+
+    "type": "Easy",
+
+    "speed": "6:20-6:50/km",
+
+    "distance": "6km",
+
+    "details": "Recovery run."
+
+  },
+
+  {
+
+    "date": "2026-08-18",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-19",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-20",
+
+    "type": "Marathon Pace",
+
+    "speed": "5:18-5:22/km",
+
+    "distance": "16km",
+
+    "details": "3km easy, 10km at marathon pace, 3km easy."
+
+  },
+
+  {
+
+    "date": "2026-08-21",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Easy aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-08-22",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:25/km",
+
+    "distance": "34km",
+
+    "details": "Peak long run. Last 8km at marathon pace."
+
+  },
+
+  {
+
+    "date": "2026-08-23",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-24",
+
+    "type": "Easy",
+
+    "speed": "6:20-6:50/km",
+
+    "distance": "6km",
+
+    "details": "Recovery run."
+
+  },
+
+  {
+
+    "date": "2026-08-25",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-26",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-27",
+
+    "type": "Tempo",
+
+    "speed": "4:55-5:05/km",
+
+    "distance": "12km",
+
+    "details": "2km warm-up, 8km tempo, 2km cool-down."
+
+  },
+
+  {
+
+    "date": "2026-08-28",
+
+    "type": "Easy",
+
+    "speed": "6:00-6:30/km",
+
+    "distance": "8km",
+
+    "details": "Easy aerobic run."
+
+  },
+
+  {
+
+    "date": "2026-08-29",
+
+    "type": "Long Run",
+
+    "speed": "6:00-6:25/km",
+
+    "distance": "28km",
+
+    "details": "Start tapering volume slightly while maintaining endurance."
+
+  },
+
+  {
+
+    "date": "2026-08-30",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  },
+
+  {
+
+    "date": "2026-08-31",
+
+    "type": "Rest",
+
+    "speed": "",
+
+    "distance": "",
+
+    "details": ""
+
+  }
+
 ]
