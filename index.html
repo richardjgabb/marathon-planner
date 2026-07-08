@@ -70,11 +70,11 @@
 
                     // 2. Insert the columns into the row
                     row.innerHTML = `
-                        <td><b>${session.date ?? '-'}</b></td>
+                        <td><b>${session.date || '-'}</b></td>
                         <td class="${sessionTypeClassMap[session.type] ?? ''}">${session.type ?? '-'}</td>
-                        <td>${session.distance ?? '-'}</td>
-                        <td>${session.speed ?? '-'}</td>
-                        <td>${session.details ?? '-'}</td>
+                        <td>${session.distance || '-'}</td>
+                        <td>${session.speed || '-'}</td>
+                        <td>${session.details || '-'}</td>
                     `;
 
                     // 3. Add the click event listener directly to this specific row
