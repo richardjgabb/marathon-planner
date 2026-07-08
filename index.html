@@ -61,7 +61,7 @@
                     // 1. Create a real TR element instead of a plain string
                     const row = document.createElement('tr');
 
-                    const [day, month, year] = session.date.split('/');
+                    const [year, month, day] = session.date.split('-');
                     const sessionDate = new Date(year, month - 1, day);
 
                     if (sessionDate < today) {
